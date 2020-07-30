@@ -1,0 +1,602 @@
+
+/*---- Navigation --*/
+.navbar
+{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgb(0, 0, 0)!important;
+}
+.navbar-brand video
+{
+    height: 2rem;
+    width: 6rem;
+}
+
+.navbar-nav li
+{
+    padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .navbar-link
+{
+    color:  rgb(255, 145, 0);
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .navbar-link.active,
+.navbar-dark .navbar-nav .navbar-link:hover
+{
+    color: hotpink;
+}
+/*--- Landing Page --*/
+.home-inner
+{
+    background-image: url(img/Niello.jpg);
+}
+.beats-bacground
+{
+    background-image: url(img/Niello.jpg);
+}
+
+
+.background
+{
+    background-image: url(WayUp/Way\ Up3.jpg);
+    width: 100%;
+}
+.fixed-inner
+{
+    background-image: url(img/Niello.jpg);
+}
+.subheaderbeats h1
+{
+    background-color: rgba(83, 83, 83, 0.5);
+    color: red;
+    text-transform: uppercase;
+}
+.subheaderbeats h4
+{
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+.caption
+{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color:  rgb(255, 145, 0);;
+    text-transform: uppercase;
+}
+
+.caption h2
+{
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+    text-decoration: underline;
+
+}
+
+.caption h5
+{
+    color: rgb(235, 102, 14);
+    font-size: 1.5rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+}
+/*--- Cover art Niello Page --*/
+.cover
+ {
+    border: 1px solid black;
+    text-align: center;
+    width: 303px;
+    height: 202px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 7px;
+
+}
+.subcover
+{
+    border-bottom: 1px solid none;
+    background: black;
+    width: 303px;
+    height: 202px;
+    border-radius: 8px;
+
+}
+/*--- End Landing Page --*/
+/*--- Start Free Beats Media Player --*/
+
+
+/*--- Premium Beats and Social Media --*/
+h1
+{
+    font-weight: lighter;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+
+}
+p 
+{
+    color: #fff;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.media
+{
+    position: absolute;
+    transform: translate(-53% -50%);
+}
+
+l2
+{
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: 5s;
+
+}
+l2:hover
+{
+    color: #292929;
+    border: 1px solid #292929;
+    transition: 5s;
+}
+
+/*--- Ending Premium Beats and Social Media --*/
+
+/*--- BEAT SETTINGS--*/
+
+.centeredbeats
+{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    padding-bottom: 10%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+.agtergrond2 {
+    margin-left: 400;
+}
+
+.fixed {
+    background: url(img/Niello.jpg);
+}
+.beatsheader h4
+{
+    background-color: black;
+    text-transform: uppercase;
+    color: rgb(255, 145, 0);
+    text-align: center;
+}
+.beatsheader p1
+{
+    background-color:rgb(20, 11, 4);
+    text-transform: uppercase;
+    color:rgb(235, 102, 14) ;
+    text-align: center;
+}
+.mixtape h4 
+{
+    color: rgb(128, 90, 73);
+    text-decoration:  underline;
+    text-align: center;
+}
+
+.combining 
+{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    padding-bottom: 10%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+
+/*---This is the end of the beat section---*/
+/*---ABOUT ME SECTION--*/
+
+/*---This is the end of the ABOUT ME section---*/
+/*---This is the start of the FOOTER section---*/
+footer
+{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+footer p
+{
+    font-size: 14px;
+    font-weight:bold;
+    color: black;
+    line-height: 10px;
+
+}
+
+/*---This is the start of the MEDIA section---*/
+.media-icons a
+{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin:20px;
+    border-radius: 50%;
+
+}
+
+.media-icons
+{
+    display: flex;
+    margin: 0 auto;
+}
+
+.media-icons i
+{
+    color: #000000;
+
+}
+
+.media-icons a:hover,
+.media-icons-b a:hover
+{
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    transition: all ease 0.5s;
+
+}
+
+.media-icons a:hover i,
+.a-media-icons-b a:hover i
+{
+    color: #FFFFFF;
+    transition: all ease 0.5s;
+
+}
+.copyright
+{
+    color: #565555;
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+
+}
+
+.copyright p
+{
+    font-size: 15px;
+    color: grey;
+    width: 600px;
+
+}
+
+.a-media-icons-b
+{
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+
+}
+
+.a-media-icons-b a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+    background-color: #004916;
+    border: 1px solid #dd5800;
+    box-shadow: 2px 2px 12px rgba(0, 1, 65, 0.2);
+
+}
+
+.a-media-icons-b i
+{
+    color:  #dd5800;
+    font-size: 20px;
+}
+/*---This is the END of the MEDIA section---*/
+
+/*---This is the end of the FOOTER section---*/
+/*---This is the start of the FOOTER section---*/
+
+/*---This is the end of the FOOTER section---*/
+
+/*---This is the beginning of the MIXTAPE HOOVER section---*/
+.mixtape-poster img
+{
+    width: 100%;
+    min-height: 250px;
+}
+.mixtape-poster
+{
+    position: relative;
+    display: block;
+    border-radius: 7px; 
+    overflow: hidden;
+    box-shadow: 0 15px 35px #3d2173a1;
+    transition: all ease 0.5s;
+}
+.mixtape-poster:hover
+{
+    box-shadow: none;
+    transform: scale(0.98) translateY(5px);
+
+}
+.mixtape-main 
+{
+    padding: 40px 0;
+}
+
+.col-md-3
+{
+    margin-bottom: 40px;
+}
+
+.mixtape-main h3
+{
+    font-size: 34px;
+    margin-bottom: 34px;
+    border-bottom: 4px solid #e6e6e6;
+    padding-bottom: 15px;
+
+}
+
+.mixtape-main p
+{
+    font-size: 15px;
+
+}
+/*---This is the END of the MIXTAPE HOOVER section---*/
+
+/*---------------------------------------*
+        THE START OF THE BEAT SECTION
+--------------------------------------------*/
+/*---This is the beginning of the MIXTAPE HOOVER section---*/
+.beat-poster img
+{
+    width: 100px;
+    min-height: 80px;
+}
+.beat-poster
+{
+    position: relative;
+    display: block;
+    border-radius: 7px; 
+    overflow: hidden;
+    transition: all ease 0.5s;
+}
+.beat-poster:hover
+{
+    box-shadow: none;
+    transform: scale(0.98) translateY(5px);
+}
+
+.beat col-md-3
+{
+    margin-bottom: 40px;
+}
+.beat-main h3
+{
+    font-size: 34px;
+    margin-bottom: 34px;
+    border-bottom: 4px solid #e6e6e6;
+    padding-bottom: 15px;
+
+}
+
+.beat-main p
+{
+    font-size: 15px;
+
+}
+
+/*--MUSIC PLAYER CUSTOMIZING STYLE---*/
+span
+{
+    color: #000 !important;
+    font-size: 18px;
+}
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded
+{
+    background: #ad0000;
+    height: 8px;
+}
+
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played
+{
+    height: 4px;
+    background-color: #2196F3!important;
+}
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played .aplayer-thumb
+{
+    background-color: #2196F3!important;
+
+}
+/*---This is the END of the MUSIC PLAYER CUSTOMIZING STYLE section---*/
+
+/*---DEFAULT IS HIDE MUSIC PLAYER-------------------------------*/
+#aplayer
+{
+    position: flex;
+    bottom: -100%;
+    left:0;
+    width: 100%;
+    margin:0;
+    box-shadow: 0 -2px 2px #001935;
+    background-color: rgb(0, 94, 131);
+    transition: all ease 0.5s;
+}
+
+#aplayer.showPlayer
+{
+    bottom:0;
+}
+
+/*----------------------------------------------DEFAULT IS HIDE MUSIC PLAYER---*/
+
+
+
+/*----------------------------------YOUTUBE API SECTION STYLE SETTINGS-------------------------------------------*/
+
+.youtube-container
+{
+    width: 560px;
+    height: 100vh;
+    margin:0 auto;
+    background-color: rgb(6, 6, 29);
+}
+
+.youtube-container header, section
+{
+    position: flex;
+    text-align: center;
+
+}
+
+.youtube-container header
+{
+    top: 20px;
+}
+
+
+.logo
+{
+    width: 120px;
+    padding: 10px;
+}
+
+
+.youtube-container main img
+{
+    height: 70px;
+    margin: 2px;
+    padding: 0px 60px;
+
+}
+
+.youtube-container h4
+{
+    padding: 0;
+    margin: 0;
+    line-height: 1.3;
+    font-weight: 600;
+}
+.youtube-container p
+{
+    padding: 0;
+    margin: 0;
+    line-height: 1.3;
+    font-weight: 600;
+    color: grey;
+    font-size: 0.7rem;
+}
+/*---------------------------------------------END YOUTUBE PLAYLIST--------------------------------*/
+/*----------------------------------ABOUT SECTION SECTION STYLE SETTINGS-------------------------------------------*/
+
+.about-container
+{
+    width: 560px;
+    height: 100vh;
+    margin:0 auto;
+    background-color: rgb(6, 6, 29);
+}
+
+.about-container header, section
+{
+    position: flex;
+    text-align: center;
+
+}
+
+.about-background
+{
+    width: 560px;
+    height: 100vh;
+    margin:0 auto;
+    background-color: rgb(0, 76, 138);
+}
+
+.about-container fb-page
+{
+    top: 20px;
+}
+
+
+.about-container header
+{
+    top: 20px;
+}
+
+
+.niello-logo
+{
+    width: 80px;
+    padding: 10px;
+}
+
+.about-container h4
+{
+    padding: 0;
+    margin: 0;
+    line-height: 1.3;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.about-container p
+{
+    padding: 0;
+    margin: 0;
+    line-height: 1.3;
+    font-weight: 600;
+    color: grey;
+    font-size: 0.7rem;
+}
+/*----------------------------------YOUTUBE API SECTION STYLE SETTINGS-------------------------------------------

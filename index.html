@@ -22,7 +22,7 @@
 
 </div>
 <!--- Navigation --->
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+<nav class="col-md-12 narrow text-center navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="#"><video autoplay loop muted>
         <source src="videos/anihead.mp4" type="video/mp4"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -87,7 +87,11 @@
                             <div class="col-md-3">
                                 <a href="javascript:void();"  download="download" class="mixtape-poster"data-switch="0">
                                     <img src="WayUp/Way Up.jpg" alt=""></a>
-                                <p>Way_Up Mixtape - 2020</p>
+                                         <p>Brand New</p>
+                                    <h4>Way_Up Mixtape - 2020</h4>
+                                    <a href="WayUp.zip" download
+                                        type="button" class="btn btn-outline-light btn-lg">DOWNLOAD</a>
+                                    <p>BY NIELLO</p>
                             </div>
                         </div>
                     </div>
@@ -112,21 +116,23 @@
 <section>
 <div id="youtube" class="offset">
 </div>
-<div class="background">
+<div class="col-md-12 narrow text-center background">
+
     <div class="youtube-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/zBKGMJPVMTg" frameborder="0" allow="
-        accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <header>
             <img src="img/YouTube.png" alt="" class="logo">
         </header>
-        <section id="video">
-        </section>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YLyDiOVIkNw" 
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <main>
             <article>
+            <div id="beats">
                 <img src="WayUp/Niello.jpg" alt="" class="thumbail">
                 <div class="details">
-                    <h4>NIELLO</h4>
-                    <p>MANEUVER</p>
+                    <h4>14 FREE BEATS</h4>
+                    <a href="beats.zip" download
+                         type="button" class="btn btn-outline-light btn-lg">DOWNLOAD</a>
+                    <p>BY NIELLO</p>
                 </div>
             </article>
         </main>
@@ -138,7 +144,7 @@
 <section>
 <div id="about" class="offset">
 </div>
-<div class="background">
+<div class="col-md-12 narrow text-center background">
     <div class="about-container">
         <div class="about-background">
             <header>
@@ -167,18 +173,20 @@
         </div>
     </div>
 </div>
-<div id="beats"></div>
-<div class="audioPlayer-container">
-<div class="audioPlayer"></div>
-</div>
-</div>
+
 <!-------------------------------------------------------------------------------------BEAT SECTION--------------------------------------->
+
+
 <footer>
-    <p>Niello_SA</p>
+
+    <h5>WAPAGE PROGRAMMED BY YONELA JOHANNES</h5>
+    <p>Email: Niellohb@gmail.com</p>
+    <p>Personal Email: JohannesYonela@gmail.com</p>
 <div class="copyright">
-    <p>Copyright by Niello_SA</p>
+    <p>COPYRIGHT BY NIELLO_SA</p>
 </div>
 </footer>
+
 
 <!-----------------THIS IS THE MEDIA PLAYER-------------->
  <!--- Start ABOUT Section --->
@@ -193,7 +201,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js"></script>
 <!---------Icons link-->
 <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-<script src="app.js" type="module"></script>
+
 
 
 <!--------------------------------------------AN AUDIO INSTANCE AND ADJUSTED IT PROPERTIES---------------->
@@ -303,12 +311,14 @@
             {
                 name: 'Tear Drops',
                 artist: 'Niello',
-                url: 'WayUp/Tear Drops.mp3',
+                url: 'WayUp/Tear_Drops.mp3',
                 cover: 'WayUp/3.jpg'
             },
 
             ]
         });
 </script>
+
+<script src="app.js" type="module"></script>
 </body>
 </html>

@@ -1,8 +1,13 @@
-.audioPlayer-container {
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
+
+html, body {
+    height: 100%;
+}
+body {
      display: flex;
      align-items: center;
      justify-content: center;
-     background-color: chocolate;
 }
 
 .audioPlayer {

@@ -35,7 +35,7 @@
 {
     background-image: url(img/Niello.jpg);
 }
-.beats-bacground
+.beats-background
 {
     background-image: url(img/Niello.jpg);
 }
@@ -44,7 +44,7 @@
 .background
 {
     background-image: url(WayUp/Way\ Up3.jpg);
-    width: 100%;
+    width: 100;
 }
 .fixed-inner
 {
@@ -234,7 +234,7 @@ l2:hover
 /*---This is the start of the FOOTER section---*/
 footer
 {
-    height: 80px;
+    height: 130px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -244,8 +244,7 @@ footer
 }
 footer p
 {
-    font-size: 14px;
-    font-weight:bold;
+    font-size: 12px;
     color: black;
     line-height: 10px;
 
@@ -301,12 +300,11 @@ footer p
     left: 50%;
     bottom: 10px;
     transform: translateX(-50%);
-
 }
 
 .copyright p
 {
-    font-size: 15px;
+    font-size: 20px;
     color: grey;
     width: 600px;
 
@@ -598,5 +596,6 @@ span
     font-weight: 600;
     color: grey;
     font-size: 0.7rem;
+    text-align: center;
 }
 /*----------------------------------YOUTUBE API SECTION STYLE SETTINGS-------------------------------------------
